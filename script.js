@@ -59,25 +59,25 @@ let count = 0;
 
 //task 6
 
-// {
-//   for (let i = 2; i < 10; i++ ) {
-//     for (let j = 1; j <=10; j++) {
-//       console.log (`${i} * ${j} = ${i*j}`);
-//     }
-//   }
-// }
+{
+  for (let i = 2; i < 10; i++ ) {
+    for (let j = 1; j <=10; j++) {
+      console.log (`${i} * ${j} = ${i*j}`);
+    }
+  }
+}
 
 //task 7
 
-// {
-//   let n = 1000;
-//   let num = 0;
-//   for (; n > 50; n /= 2){
-//        console.log(n);
-//        num++;
-//   }
-//   console.log(`Кол-во итераций: ${num}`);
-// }
+{
+  let n = 1000;
+  let num = 0;
+  for (; n > 50; n /= 2){
+       console.log(n);
+       num++;
+  }
+  console.log(`Кол-во итераций: ${num}`);
+}
 
 //task 8
 
@@ -103,7 +103,9 @@ let count = 0;
 
 {
   let str = "4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57";
-  let kol = '', min, max;
+  let kol = '';
+  let min;
+  let max;
   for (let i = 0; i < str.length; i++) {
     kol += str[i];
     if (+str[i] && !+str[i+1]) {
